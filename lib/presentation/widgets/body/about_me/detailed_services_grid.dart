@@ -20,10 +20,10 @@ class DetailedServicesGrid extends StatelessWidget {
       ),
       itemBuilder: (context, index) {
         return DetailedServiceItem(
-          service: AppConstants.services[index],
+          service: AppConstants.services[0],
         );
       },
-      itemCount: AppConstants.services.length,
+      itemCount: AppConstants.services.length-2,
     );
   }
 
