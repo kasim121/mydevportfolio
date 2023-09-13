@@ -15,7 +15,8 @@ class ExperienceInfo extends StatelessWidget {
         Text(
           AppStrings.numOfExperience,
           style: context.width < DeviceType.mobile.getMaxWidth()
-              ? AppStyles.s32.copyWith(fontSize: 48)
+              ? 
+              AppStyles.s32.copyWith(fontSize: 48)
               : AppStyles.s32.copyWith(fontSize: 96),
         ),
         const SizedBox(width: 20),

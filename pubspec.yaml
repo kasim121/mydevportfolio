@@ -38,6 +38,7 @@ dependencies:
   flutter_bloc: ^8.1.2
   flutter_svg: ^2.0.2
   font_awesome_flutter: ^10.4.0
+  google_fonts: ^5.1.0
   shimmer: ^2.0.0
   universal_html: ^2.0.9
   auto_size_text: ^3.0.0
@@ -79,6 +80,14 @@ flutter:
           weight: 600
         - asset: assets/fonts/Poppins-Bold.ttf
           weight: 700 
+
+    - family: Orbitron
+      fonts:
+        - asset: assets/fonts/Orbitron-Regular.ttf
+        - asset: assets/fonts/Orbitron-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Orbitron-Bold.ttf
+          weight: 700          
 
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

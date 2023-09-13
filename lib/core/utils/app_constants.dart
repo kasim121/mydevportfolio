@@ -6,7 +6,7 @@ abstract class AppConstants {
   static const double appBarHeight = 80;
   static const List<CustomService> services = [
     CustomService(
-      service: 'FLUTTER MOBILE DEVELOPMENT',
+      service: 'FLUTTER DEVELOPMENT',
       logo: AppAssets.androidLogo,
       description:
           'I am a Mobile Application developer. I have experience using Dart and Flutter Framework.',
@@ -25,15 +25,15 @@ abstract class AppConstants {
     ),
   ];
   static const List<Project> projects = [
-       Project(
-      name: 'Club App',
+    Project(
+      name: 'Sporket',
       imageUrl:'',
           //'https://drive.google.com/uc?id=1ITN6reINiIaM-6j3QqxrwtvADZgLNvwB',
       description:
-          'A club app which provides the membership to thet member of club app where member can avail the club facilities such room booking, facility booking, table booking etc..',
+          'A Sporket app is a fantasy sports game app where user can win money.',
       githubRepoLink: '',
       //'https://github.com/radyhaggag/live_score',
-      previewLink: ''
+      previewLink: 'https://tinyurl.com/yav55ma7'
       //'https://youtu.be/DT_9gLkeWKQ',
     ),
       Project(
@@ -41,23 +41,23 @@ abstract class AppConstants {
       imageUrl:'',
           //'https://drive.google.com/uc?id=1ITN6reINiIaM-6j3QqxrwtvADZgLNvwB',
       description:
-          'Online food ordering web app where user can order the food using the url',
+          'Online food ordering web app where user can order the food',
       //'https://github.com/radyhaggag/live_score',
-      previewLink: ''
+      previewLink: 'https://tinyurl.com/yc5zxzjx'
       //'https://youtu.be/DT_9gLkeWKQ',
     ),
-     Project(
-      name: 'Sporket',
+    
+      Project(
+      name: 'Club App',
       imageUrl:'',
           //'https://drive.google.com/uc?id=1ITN6reINiIaM-6j3QqxrwtvADZgLNvwB',
       description:
-          'A Sporket app is a fantasy sports game app where you can win money.',
+          'A club app which provides the membership to the member of club app where member can avail the club facilities such room booking, facility booking, table booking etc..',
       githubRepoLink: '',
       //'https://github.com/radyhaggag/live_score',
       previewLink: ''
       //'https://youtu.be/DT_9gLkeWKQ',
     ),
-  
      Project(
       name: 'Player Link',
       imageUrl:'',

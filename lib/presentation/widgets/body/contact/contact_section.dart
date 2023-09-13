@@ -19,16 +19,16 @@ class ContactSection extends StatelessWidget {
                 Expanded(
                   child: ContactIntro(),
                 ),
-                SizedBox(width: 32),
-                Expanded(child: ContactForm()),
+               // SizedBox(width: 32),
+                // Expanded(child: ContactForm()),
               ],
             )
           : Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 ContactIntro(),
-                SizedBox(height: 32),
-                ContactForm(),
+               // SizedBox(height: 32),
+                // ContactForm(),
               ],
             ),
     );

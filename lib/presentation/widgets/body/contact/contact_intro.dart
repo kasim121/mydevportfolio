@@ -24,8 +24,8 @@ class ContactIntro extends StatelessWidget {
           style: AppStyles.s18,
           softWrap: true,
         ),
-        const SizedBox(height: 8),
-        const SocialMediaIcons(),
+        // const SizedBox(height: 8),
+        // const SocialMediaIcons(),
       ],
     );
   }
